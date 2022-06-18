@@ -1,6 +1,10 @@
 # Some Ideas from: KIPAS, Geruays & Revan AR
 # Script created by PhynX
 
+import threading
+import requests
+import os
+import time, json, datetime
 
 def main():
 	global auth, maxerr, api, pos, dely
